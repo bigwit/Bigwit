@@ -1,0 +1,8 @@
+Options for install PostgreSQL DB
+
+	user 		postgres (default)
+	password 	00163325
+	port		5333	(url localhost:5333)
+	
+
+	

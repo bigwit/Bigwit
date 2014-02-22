@@ -1,4 +1,0 @@
-Bigwit
-======
-
-Bigwit Project
