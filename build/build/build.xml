@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Bigwit" default="_makeAndRedeploy">
+	
+	<target name="_makeAndRedeploy" description="Compile  sources and deploy target files to server">
+		<echo>Making...</echo>
+		<echo>Deploy...</echo>
+		<echo>Remove temp files</echo>
+	</target>
+	
+	<target name="clean" description="remove execute files">
+		<echo>Remove build directory</echo>
+	</target>
+	
+	<target name="_makeClientBot">
+		<echo>Making client emulator</echo>
+	</target>
+	
+</project>
