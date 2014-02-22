@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project name="Bigwit" default="_makeAndRedeploy">
+
+	<property file="build.properties"/>
 	
-	<target name="_makeAndRedeploy" description="Compile  sources and deploy target files to server">
-		<echo>Making...</echo>
-		<echo>Deploy...</echo>
-		<echo>Remove temp files</echo>
-	</target>
-	
-	<target name="clean" description="remove execute files">
+	<target name="_clean" description="remove execute files">
 		<echo>Remove build directory</echo>
 	</target>
 	
-	<target name="_makeClientBot">
+	<target name="_makeAndRedeploy" description="Compile  sources and deploy target files to server">
+		<echo>Making from ${bigwit.global.root.dir}...</echo>
+		<echo>Deploy to ${bigwit.global.server.dir}...</echo>
+		<echo>Remove temp files</echo>
+	</target>
+	
+	<target name="_restartServer" description="restart Tomcat">
+    	<echo>Using scripts: ${bigwit.global.server.dir}/bin/startup.bat and ${bigwit.global.server.dir}/bin/shutdown.bat</echo>
+	</target>
+	
+	<target name="_makeClientBot" description="Make emulator of client">
 		<echo>Making client emulator</echo>
 	</target>
 	
