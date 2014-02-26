@@ -9,6 +9,5 @@
  -->
  
  <server>
- 	<name>localhost</name>
- 	<port>8080</port>
+ 	<config-db>db_configdesk.xml</config-db>
  </server>

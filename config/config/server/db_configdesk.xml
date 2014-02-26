@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<database>
+	<connection>
+		<user>
+			<login>postgres</login>
+			<password>00163325</password>
+		</user>
+		<params>
+			<db-name>postgres</db-name>
+			<db-domain>localhost</db-domain>
+			<db-port>5333</db-port>
+		</params>
+	</connection>
+</database>
